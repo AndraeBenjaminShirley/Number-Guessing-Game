@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -13,8 +12,28 @@ input, button {
 
 #feedback {
     font-weight: bold;
+    margin-top: 20px;
 }
 
 #previousGuesses {
     margin-top: 20px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin-top: 20px;
+    }
+
+    input, button {
+        width: 80%;
+        font-size: 14px;
+    }
 }
